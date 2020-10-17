@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Quicksand:wght@400;500;700&display=swap');
+
+* {
+    font-family: "Quicksand";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    position: relative;
+}
+
+a.link-sm {
+    color: #728196;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+button.btn-primary {
+    background: #0E811C;
+    padding: 16px 48px;
+    border: none;
+    border-radius: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+button.btn-secondary {
+    background-color: transparent;
+    padding: 16px 38px;
+    border: none;
+    border-radius: 250px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #242424;
+    border: 2px solid #242424;
+}
+
+.nav-links {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-brand {
+    position: absolute;
+    transform: translateX(-45%);
+    left: 45%;
+}
+
+section.hero {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.column-illu-hero img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+img.bg-hero {
+    top: 10%
+}
+
+.column-text-heading {
+    padding-top: 124px;
+    width: 50%;
+
+}
+
+h1.hero-heading {
+    font-size: 64px;
+    color: #242424;
+}
+
+p.text-p {
+    margin: 24px 0;
+    font-size: 18px;
+    color: #728196;
+    line-height: 150%;
+}
