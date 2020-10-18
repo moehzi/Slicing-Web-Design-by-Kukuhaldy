@@ -161,3 +161,136 @@ p.text-p {
     margin: 32px 0;
     line-height: 150%;
 }
+
+section.pricelist {
+    padding: 64px;
+    width: 100%;
+    margin: 124px 0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-lightgreen {
+    background-color: #EAF5EB;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 56px;
+    color: #242424;
+}
+
+.heading p {
+    color: #728196;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.switcher {
+    background-color: #D1E9D4;
+    padding: 8px;
+    border-radius: 100px;
+    margin: 42px 0;
+}
+
+button.btn-on-tab {
+    color: #EAF5EB;
+    background-color: #0E811C;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+button.btn-off-tab {
+    background-color: transparent;
+    color: #728196;
+    font-size: 24px;
+    padding: 8px 16px;
+    border: none;
+    font-weight: 600;
+
+}
+
+.row-card-pricelist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    column-gap: 24px;
+}
+
+.card-price {
+    border: 3px solid #242424;
+    border-radius: 30px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.main-green {
+    color: #0E811C !important;
+}
+
+.stroke-main-green {
+    border: 3px solid #0E811C;
+    color: #0E811C;
+}
+
+.descripition-price {
+    height: 38vh;
+}
+
+.label h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #242424;
+}
+
+.label h1 {
+    font-size: 48px;
+    color: #242424;
+}
+
+.label h1 span {
+    font-size: 24px;
+    color: #242424;
+}
+
+.pricelist-features p {
+    color: #728196;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.pricelist-features {
+    margin-top: 20px;
+}
+
+.pricelist-features img {
+    margin-right: 8px;
+
+}
+
+.bg-dark {
+    background: #242424 !important;
+}
+
+.cta-subscribe button {
+    padding: 18px 62px;
+}
+
+.cta-subscribe {
+    margin: auto;
+}
