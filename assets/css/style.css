@@ -160,6 +160,7 @@ p.text-p {
     color: #728196;
     margin: 32px 0;
     line-height: 150%;
+    width: 80%;
 }
 
 section.pricelist {
@@ -293,4 +294,96 @@ button.btn-off-tab {
 
 .cta-subscribe {
     margin: auto;
+}
+
+section.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reviewers {
+    display: flex;
+}
+
+.description-testi {
+    margin-top: 62px;
+    padding-left: 24px;
+}
+
+.description-testi h3 {
+    font-size: 36px;
+    color: #242424;
+}
+
+.description-testi p {
+    font-size: 18px;
+    color: #728196;
+    margin-top: 18px;
+    line-height: 150%;
+}
+
+p.label-user {
+    font-size: 20px;
+    margin: 18px 0;
+    color: #0E811C;
+    font-weight: 700;
+}
+
+.tab {
+    display: flex;
+    width: 10vh;
+    justify-content: space-between;
+    margin: 44px 0;
+}
+
+.tab span {
+    background-color: #728196;
+    border: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.tab span.active {
+    background-color: #242424;
+}
+
+section.jumbotron {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 144px 0;
+    padding: 64px;
+    border-radius: 50px;
+}
+
+.single-centered-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media img {
+    margin-left: 8px;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 72px;
+}
+
+.information p {
+    color: #728196;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-left: 164px;
+
+
 }
